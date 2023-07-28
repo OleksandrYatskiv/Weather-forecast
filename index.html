@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather forecast</title>
+</head>
+
+<body>
+    <div class="wrapp">
+        <header>
+            <h1>Weather forecast</h1>
+            <div class="select-scale">
+                <label>
+                    <input type="radio" name="temperature" value="celsius" id="temp_c" checked>
+                    Celsius 
+                </label>
+    
+                <label>
+                    <input type="radio" name="temperature" value="fahrenheit" id="temp_f">
+                    Fahrenheit 
+                </label>
+            </div>
+            <div class="select-scale">
+                <label>
+                    <input type="radio" name="wind" value="celsius" id="wind_kph" checked>
+                    Kilometers/hour 
+                </label>
+    
+                <label>
+                    <input type="radio" name="wind" value="fahrenheit" id="wind_mph">
+                    Miles/hour  
+                </label>
+            </div>
+        </header>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
